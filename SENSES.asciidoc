@@ -1,0 +1,14 @@
+# Audio
+## Ear (input)
+Need a driver from gstreamer audio pipeline to neural impulses
+
+## Speech (Output)
+Human rigid body approximation and diaphram actuation can be mapped to desired phoneme, pitch, and intensity. From there we just need an audio driver for playing a given phoneme, pitch, and intensity.
+
+# Visual
+## Sight
+gstreamer visual pipeline to visual neural impulses
+
+# Touch
+Need to suround robotic approximation in a mesh for touch synthesis and conversion to neural impulses
+
