@@ -34,9 +34,7 @@ Using an end-to-end connectome system of the necessary human autonomy stack (bra
 - Neural interface device drivers
 - Signal Noise Mitigation via DSP
 
-## Robotic Actuation/Sensing
-
-## Modeling physiology
+## Modeling physiology for movement and feeling
 Model humans skeletons as a 3d rigid body with springs for muscles. For the driver layer pass information back and forth between the human model and the robotic approximation. Driver input from robot will flow from the robotic approximation model to the human model to the (emulator's neural drivers or simulator layer). Human input will flow from the (simulator or emulator's neural drivers) to the human model and the robotic approximation.
 
 #### Human Physiology Kinematics/Reverse Kinematics
