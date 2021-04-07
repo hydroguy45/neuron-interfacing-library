@@ -1,6 +1,9 @@
 # neuron-interfacing-library
 
-A library for the uploading, simulation, and emulation of neural pathways for use in silico or for robot actuation/sensing. tldr; immortality
+A library for the uploading, simulation, and emulation of neural pathways for use in silico or for robot actuation/sensing. The aim is not to simulate any arbitrary nervous system for use in prostetics or eventually simulation. Through this effort, a config language will be build up to simplify the infrastructure for connecting to nervous systems and simulating brains.
+
+Baseline goal: Simulate a finger
+Reach goal: Make OS for immortality in robot bodies.
 
 ## Modeling physiology for movement and feeling
 Model humans skeletons as a 3d rigid body with springs for muscles. For the driver layer pass information back and forth between the human model and the robotic approximation. Driver input from robot will flow from the robotic approximation model to the human model to the (emulator's neural drivers or simulator layer). Human input will flow from the (simulator or emulator's neural drivers) to the human model and the robotic approximation.
