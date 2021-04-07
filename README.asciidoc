@@ -1,0 +1,54 @@
+# neuron-interfacing-library
+
+A library for the uploading, simulation, and emulation of neural pathways for use in silico or for robot actuation/sensing. tldr; immortality
+
+## Uploading
+
+- Scanning technology abstract classes
+- CV cell by cell connectome parsing
+
+## Neural Configuration
+
+There's a need for a generalizable configuration format for neural connections. This will need to be used for converting the cv results into a usable format prior to sending to the emulation and/or simulation engine.
+
+## Emulation (prostetic)
+Used to convert an existing neural pathway into a virtual neural pathway before interacting with the library.
+
+- Takes neural configuration and sensor pads
+
+### Use case
+Human attaches i/o device to a series of nerves for use in actuating a robotic approximation of potentially missing limbs.
+
+## Simulation (brain simulation)
+Using an end-to-end connectome system of the necessary human autonomy stack (brain), simulate the human brain. This is then connected to a robotic approiximation of a body or a virtualization of a body for running in a game.
+
+- NEST ("neural simulation tool")
+- UI
+- Hormone Regulation Module
+	- Fake adrenal system based on power draw
+	- Temporal hormone release as a pub/sub method with magnitude and source vector
+		- Requires a fake blood stream for modeling where hormones are deposited.
+
+## Neural Drivers
+
+- Neural interface device drivers
+- Signal Noise Mitigation via DSP
+
+## Robotic Actuation/Sensing
+
+## Modeling physiology
+Model humans skeletons as a 3d rigid body with springs for muscles. For the driver layer pass information back and forth between the human model and the robotic approximation. Driver input from robot will flow from the robotic approximation model to the human model to the (emulator's neural drivers or simulator layer). Human input will flow from the (simulator or emulator's neural drivers) to the human model and the robotic approximation.
+
+#### Human Physiology Kinematics/Reverse Kinematics
+##### Movement
+Model human physiology as a ridgid body made up of stiff parts and spring like features. Assume neurons control desired spring constants. Model delta-time propagation. Find resulting desired position.
+
+##### Sensing
+Convert robotic approximation of encapsulating surface to human ridigid body skin neuron sense point. Send the appropriate neural impulse.
+
+#### Robotic Approximation Kinematics/Reverse Kinematics
+##### Movement
+Convert human physiology ridgid body model to a robot approximation by minimizing error between joints, elements, and end effector. Prioritize reducing loss on delta for end effector state (orientation and position). From there actuate the robot via reverse kinemtics to the desired position.
+
+##### Sensing
+Take in sensed values at local regions on the robotic approximation and send that state data on the surface of the robotic approximation back to the human physiology model layer
