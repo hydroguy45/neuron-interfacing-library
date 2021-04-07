@@ -1,0 +1,12 @@
+# Developer Logistics
+
+In order to leverage robotic approximation and 3d forward/reverse kinematics libraries the majority of this will be developed in ROS.
+
+## Guidelines
+Please use ROS pub/sub mechanisms for communication between different model frameworks (human model and robot approximation model)
+
+Please use RViz as the go to visualization for the human skeletal model and the robot approximation model.
+
+Please adhear to the Google C++ Style guide when writing C++ code. 
+
+With speed in mind, please refrain from not using C/C++.
