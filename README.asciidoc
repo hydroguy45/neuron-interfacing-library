@@ -1,6 +1,6 @@
 # neuron-interfacing-library
 
-A library for the uploading, simulation, and emulation of neural pathways for use in silico or for robot actuation/sensing. The aim is not to simulate any arbitrary nervous system for use in prostetics or eventually simulation. Through this effort, a config language will be build up to simplify the infrastructure for connecting to nervous systems and simulating brains.
+A library for the uploading, simulation, and emulation of neural pathways for use in silico or for robot actuation/sensing. The aim is to simulate any arbitrary nervous system for use in prostetics or eventually simulation. Through this effort, a config language will be build up to simplify the infrastructure for connecting to nervous systems and simulating brains.
 
 Baseline goal: Simulate a finger
 
