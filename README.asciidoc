@@ -37,9 +37,7 @@ There's a need for a generalizable configuration format for neural connections. 
 Used to convert an existing neural pathway into a virtual neural pathway before interacting with the library.
 
 - Takes neural configuration and sensor pads
-
-### Use case
-Human attaches i/o device to a series of nerves for use in actuating a robotic approximation of potentially missing limbs.
+- Human attaches i/o device to a series of nerves for use in actuating a robotic approximation of potentially missing limbs.
 
 ## Simulation (brain simulation)
 Using an end-to-end connectome system of the necessary human autonomy stack (brain), simulate the human brain. This is then connected to a robotic approiximation of a body or a virtualization of a body for running in a game.
