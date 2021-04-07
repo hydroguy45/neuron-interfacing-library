@@ -1,0 +1,10 @@
+In 2018, the NEST project acknowledge that they only need 100x the best super computer's processing power in order to simulate the human brain in live time. To simulate a brain in a vaccume is torture. This goal of this open source project is to build out the software infrastructure so that once Scientists are able to properly simulate a brain, we can not simulate it in a vaccume. To that end the goals of these projects is to build a configurable interface for simulating/emulating neural connections and moving/sensing with robotic stand ins for human physiology.
+
+Steps:
+* Prostetic finger
+* Prostetic hand
+* Prostetic arm
+* Prostetic leg
+* Emulate small animal
+* Emulate monkey
+* Emulate human
