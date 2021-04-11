@@ -1,0 +1,3 @@
+# Exoskeletal Model
+
+Pretty straight forward. Wrap the skeleton in an exoskeleton. Provide callibrated information about fixed distances between rigid body structures in the skeleton and exoskeleton. Observe the state of the exoskeleton using full auto-encoders. Using the state of the exoskeleton and the callibration information convert to the state of the skeleton. This model is very feasible, but clunky and assumes existance of skeleton in physical world.
