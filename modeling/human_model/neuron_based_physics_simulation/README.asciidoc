@@ -28,4 +28,6 @@ Don't Simulate neurons. Just match a neuron sourch to any number of neuron sinks
 
 ## Muscle Contraction Models
 
+The aim is to model muscle contraction as a function of electrical stimuli to a precise point on the muscle. This doesn't have to work for all ranges of voltages, just a feasible range that a muscle may receive from neurons in any give region. 
 
+To that end, we will need to select an appropriate model of muscle contraction as a model of electrical stimuli. The aim is to convert a length of muscle fiber with a certain voltage of simuli into a chain of springs with specific spring constaints.
