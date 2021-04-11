@@ -1,0 +1,31 @@
+# Neuron Based Physics Simulation
+
+There are many different ways to model musculature and neurons. We should support a series of different models and allow for configurability for swapping the models.
+
+## Input Devices
+
+## Ouput Devices
+
+## Neuron Impulse Models
+
+These are models for how a network of neurons should propagate a signal. Each of these models may take different configurations for how to load/unload neurons.
+
+### Cell-by-cell Signal Chain 
+
+Involves propagation cell by cell. This model could be implemented volumetrically or as a graph theory representation.
+
+### Long Wire (RLC chain)
+
+Simulates long strands of neurons as RLC circuits. This model is helpful in scenarios where learned behavoir has resulted in neurons that aren't growing in noval ways & don't have complex junctions. This is very helpful for behavoir near the end effector, but is unusable for modeling neurons in the brain.
+
+### Bi-directional Pseudo Networking Layer
+
+Models individual signal propagation as a long wire bus of arbitrary size with routing layers to direct the bus. This model doesn't account for neural impulses cell by cell. Rather large pathways of neurons are simulated by busses of long wires. Junctions are modeled as a routing layer which can propagate bus information in predefined directions.
+
+### Pure Pub-Sub (Prefered for Speed)
+
+Don't Simulate neurons. Just match a neuron sourch to any number of neuron sinks. This is the quickest model, but doesn't account for signal changes that could occur over the neurons between the source and sink.
+
+## Muscle Contraction Models
+
+

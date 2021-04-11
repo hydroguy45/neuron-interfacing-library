@@ -1,0 +1,3 @@
+# Optical Model
+
+Using a set of cameras (>=3), observe the state of the skeleton. Use callibration to determine the relative camera locations and intrinsics. This would result in a similar setup to a Vicon motion capture system. 
