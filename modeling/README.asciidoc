@@ -1,0 +1,19 @@
+# Modeling
+
+The justification of modeling is that there needs to be a determanistic way of determining how impulses should control the avatar and how input on the avatar should be mapped back to affect the human.
+
+## Human Modeling
+
+How we parse neural outputs into motion and how we convert sensed values back to neural inputs.
+
+## Avatar Modeling
+
+The model that we map to after establishing how the human model should change.
+
+### Virtual
+
+A virtual avatar is used to propagate neural outputs to a virtual manifestation. Sensed values are then propagated back to the neural input.
+
+### Robotic
+
+A robotic avatar is used to propagate neural outputs to a physical manifestation. Sensed values are then propagated back to the neural input.

@@ -1,0 +1,3 @@
+# Virtual Model
+
+Similar to the robot model with different drivers. Instead of actuation, animation is relied on. 

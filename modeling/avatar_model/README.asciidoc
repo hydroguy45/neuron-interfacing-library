@@ -1,0 +1,1 @@
+A way to map from the human model to another model for simulating output of the control. This is also used for propagating senses back as a neural input.

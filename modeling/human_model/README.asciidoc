@@ -1,0 +1,25 @@
+# Human Model
+
+The human model is used to simulate how the human body postures itself. We aim to support three distinct ways of input for the human model
+
+## Skeleton 
+
+A collection of ridgid body components that make up the human skeleton. This is used by the avatar to determine an appropriate mapping.
+
+## Skeleton State Estimation
+
+A series of moddels are intended to be supported for estimating the state of the skeleton.
+
+State can be propagated forward and backwards from human to avatar and avatar to human to support neural output and neural input respectively.
+
+### Neuron Based Physics Simulation
+
+Model the neurons and musculature surounding the skeleton. Sense neural outputs and propagate the impulses through the modeled neurons. From there, tighten the musculature. Treat muscles as networks of springs of variable spring constants (K). Adjust the tension in the muscles and approximate the new steady state of the skeleton. 
+
+### Optical Model 
+
+Using a variety of calibrated cameras, observe the body as a 3d object. The determine the optimal state of the skeleton to produce such a 3d object. 
+
+### Exoskeletal Model
+
+Wrap the skeleton in a layer to approximate the skeleton's state based on state of the exoskeleton obsered by angle encoders and calibrated differences between the skeleton and the exoskeleton.

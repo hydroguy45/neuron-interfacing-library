@@ -1,0 +1,7 @@
+# Robot Model
+
+This is a representation of the state of the robot. The human model's skeletal state estimation is used as a control input to the robot model. The aim of the robot model is to minimize differences in position of corresponding joints in addition to minimizing deviation in end effector orientation.
+
+Sensed input from the robot model can be propagated back to the human model which will produce corresponding neural inputs.
+
+A special case exists for speech, but we will cross that bridge when we get there. The tldr; is as follows. Find orienation/position of mouth and tongue (harder because of lack of skeleton in tongue). Map diaphram changes to volumn. Map tongue position to phoneme. Play back as audio.
